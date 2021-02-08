@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: 'blog', label: '博客', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/StandOutstar',
           label: 'GitHub',
           position: 'right',
         },
