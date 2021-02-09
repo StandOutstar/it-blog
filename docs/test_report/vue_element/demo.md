@@ -2,7 +2,7 @@
 title: 思路和 demo
 ---
 
-将 Python 的 dict 数据直接写入 Vue app 的 data() 中返回，由 Vue 来渲染数据增强页面动态性，Element Plus 提供组件和样式。
+将 Python 的 dict 数据转换为 json 字符串写入到模板中，通过 JSON.Parse() 转换为 JS 对象由 Vue app 的 data() 中返回，由 Vue 来渲染数据增强页面动态性，Element Plus 提供组件和样式。
 
 在一个 HTML 中包含所有东西，数据由 pyhton 写入。也可以定义组件。
 
