@@ -43,7 +43,7 @@ module.exports = {
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2/',
+              to: 'docs/',
             },
           ],
         },
@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/StandOutstar',
             },
           ],
         },

@@ -5,8 +5,10 @@ module.exports = {
       'test_report/intro',
       {
         vue_and_element: ['test_report/vue_element/demo', {'探索过程': ['test_report/vue_element/single']}],
-        alpine_and_bootstrap: ['test_report/alpine_bootstrap/demo', {'探索过程': ['test_report/alpine_bootstrap/alpine', 'test_report/alpine_bootstrap/bootstrap']}]
+        alpine_and_bootstrap: ['test_report/alpine_bootstrap/demo', {'探索过程': ['test_report/alpine_bootstrap/alpine', 'test_report/alpine_bootstrap/bootstrap']}],
+        brython: ['test_report/brython/demo']
       }
-    ]
+    ],
+    '自动化': ['automation/index']
   }
 };

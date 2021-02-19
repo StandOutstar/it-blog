@@ -232,8 +232,9 @@ if __name__ == '__main__':
 
 ## 适合的 JS 库
 
-- alpinejs 简单，轻量，可以无需编译。
-- vuejs(vue2 或 vue3) 入手简单，可以无需编译。
+- brython.js 使用 Python 替代 JavaScript，可以直接引入使用。
+- alpinejs 简单，轻量，可以直接引入使用。
+- vuejs(vue2 或 vue3) 入手简单，可以直接引入使用。
 
 ## 适合的 CSS 库
 
