@@ -9,6 +9,6 @@ module.exports = {
         brython: ['test_report/brython/demo']
       }
     ],
-    '自动化': ['automation/index']
+    '自动化': ['automation/index', 'automation/deploy']
   }
 };

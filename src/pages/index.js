@@ -8,41 +8,50 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Python',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Automation
+        Test Automation
+        Backend Service Develop
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '.NET',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Backend Service Develop
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Go',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Single File Command Tool
+        Backend Service Develop
       </>
     ),
   },
+  {
+    title: 'JS',
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+        Frontend Develop
+      </>
+    ),
+  }
 ];
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--3', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -78,8 +87,21 @@ function Home() {
         </div>
       </header>
       <main>
-        {/* <section>
-        {features && features.length > 0 && (
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <section>展示项目 1</section>
+            </div>
+            <div className="col">
+              <section>展示项目 2</section>
+            </div>
+            <div className="col">
+              <section>展示项目 3</section>
+            </div>
+          </div>
+          
+        </div>
+        {features && features.length && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
@@ -90,10 +112,6 @@ function Home() {
             </div>
           </section>
         )}
-        </section> */}
-        <section>
-          <h2>Test</h2>
-        </section>
       </main>
     </Layout>
   );

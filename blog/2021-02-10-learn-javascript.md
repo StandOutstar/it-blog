@@ -94,3 +94,9 @@ console.log(MY_ARRAY); //logs ['HTML','CSS','JAVASCRIPT'];
 属性名必须是合法的 JavaScript 标识符或字符串（包括空字符串）。
 属性名不是合法的 JavaScript 标识符是字符串的话，必须用下标的方式访问 [""]。
 
+
+
+
+## 体悟
+
+JavaScript 为每种不同的操作方式可能设置不同的表现行为。
