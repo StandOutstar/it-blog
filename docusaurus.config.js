@@ -43,7 +43,7 @@ module.exports = {
             },
             {
               label: 'Second Doc',
-              to: 'docs/',
+              to: 'blog/',
             },
           ],
         },

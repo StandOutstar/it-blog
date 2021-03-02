@@ -38,7 +38,7 @@ const features = [
     ),
   },
   {
-    title: 'JS',
+    title: 'JavaScript',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
