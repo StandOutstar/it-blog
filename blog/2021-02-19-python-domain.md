@@ -1,5 +1,6 @@
 ---
 title: Python 关注
+tags: [python, domain, concern]
 ---
 
 ## 书籍
@@ -13,7 +14,13 @@ title: Python 关注
 
 ## 网站
 
+- [设计模式](https://refactoringguru.cn/design-patterns/python)
+
+
 ## 独立博客
+
+- [Python Hashes and Equality](https://hynek.me/articles/hashes-and-equality/)
+
 
 ## 博客
 

@@ -7,6 +7,9 @@ title: 软件开发领域
 
 - 数据结构与算法
 
+- 设计原则
+  - [Heading 设计模式](123)
+
 - 设计模式
   - [refactoring.guru/design-patterns](https://refactoringguru.cn/design-patterns/catalog)
 
@@ -20,3 +23,6 @@ title: 软件开发领域
 
 - 工作改进
   - [设计思维用于工作改进](https://dribbble.com/stories/2021/01/14/design-thinking-for-workflow)
+
+- 代码
+  - [代码整洁之道]

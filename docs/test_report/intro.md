@@ -222,11 +222,10 @@ if __name__ == '__main__':
 
 可以看出，模板引擎只向最终的 HTML 渲染了数据，模板中也只定义了骨架，最终是在浏览器里由 JS 生成了完整的内容然后浏览器渲染出来。
 
-### 类比
+### 比较
 
-第一种方式类似 web 开发方式中的后端渲染，由后端生成页面的所有内容。
-
-第二种方式类似 web 开发方式中的前端渲染，由前端生成部分页面内容。
+- 第一种方式类似 web 开发方式中的后端渲染，由后端生成页面的所有内容。
+- 第二种方式类似 web 开发方式中的前端渲染，由前端生成部分页面内容。
 
 当然，两种方式结合也是可以的。
 
@@ -270,7 +269,7 @@ render_data = {
     ]
 }
 
-json_str = json.dumps(render_data, ensure_ascii=False)
+json_str = json.dumps(render_data, ensure_ascii=False)  # 接受 Unicode 字符
 ```
 
 ```js title="JS 代码中"

@@ -63,6 +63,60 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
+const domains = [
+  {
+    title: 'Software Test',
+    imageUrl: 'img/bug_search.svg',
+    description: (
+      <>
+      
+      </>
+    ),
+  },
+  {
+    title: 'Software Development',
+    imageUrl: 'img/programming.svg',
+    description: (
+      <>
+      
+      </>
+    ),
+  },
+  {
+    title: 'Software DevOps',
+    imageUrl: 'img/devops.svg',
+    description: (
+      <>
+      
+      </>
+    ),
+  },
+  {
+    title: 'Automation',
+    imageUrl: 'img/automation.svg',
+    description: (
+      <>
+      
+      </>
+    ),
+  },
+];
+
+function Domain({imageUrl, title, description}) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={clsx('col col--3', styles.feature)}>
+      {imgUrl && (
+        <div className="text--center">
+          <img className={styles.featureImage} src={imgUrl} alt={title} />
+        </div>
+      )}
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+  );
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -87,20 +141,18 @@ function Home() {
         </div>
       </header>
       <main>
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              <section>展示项目 1</section>
+        {domains && domains.length && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {domains.map((props, idx) => (
+                  <Domain key={idx} {...props} />
+                ))}
+              </div>
             </div>
-            <div className="col">
-              <section>展示项目 2</section>
-            </div>
-            <div className="col">
-              <section>展示项目 3</section>
-            </div>
-          </div>
-          
-        </div>
+          </section>
+        )}
+
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">

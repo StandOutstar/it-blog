@@ -1,5 +1,6 @@
 ---
 title: Pexpect
+tags: [python,]
 ---
 
 [文档地址](https://pexpect.readthedocs.io/en/stable/overview.html)
