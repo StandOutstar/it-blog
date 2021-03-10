@@ -74,3 +74,7 @@ title: Tailwind 学习
         }
     </style>
     ```
+### 自定义设计
+
+- 在 full config 的 tailwind 配置文件里，修改默认设计
+- 在 tailwind 配置文件里，修改或扩展配置

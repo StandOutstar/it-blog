@@ -8,7 +8,7 @@ title: 软件开发领域
 - 数据结构与算法
 
 - 设计原则
-  - [Heading 设计模式](123)
+  - 《HeadFirst 设计模式》
 
 - 设计模式
   - [refactoring.guru/design-patterns](https://refactoringguru.cn/design-patterns/catalog)
